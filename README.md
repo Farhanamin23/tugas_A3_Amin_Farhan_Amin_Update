@@ -1,11 +1,11 @@
 **jquery form validation Dan captcha input**
 
-> tugas A3 Di Salt Academy kali ini saya membuat jquery form validaiton dengan captcha input
+> A3 assignment At Salt Academy this time I made a jquery-plugin form validation with captcha input validate
 
-### pertama kita membuat dulu table pada file hmtl
+### first we create a table first in the hmtl file
 
 ```
-pada clsss card itu akan saya gunakan untuk membaut file di css nya
+on the css card I will use it to create files in the css
 <div class="card">
         <form action="#" name="userForm" id="userForm" method="post">
             <h3>Jquery Form </h3>
@@ -32,24 +32,22 @@ pada clsss card itu akan saya gunakan untuk membaut file di css nya
             </div>
             <div class="form-group">
                 <input class="input" type="password" name="confirm_password" id="confirm_password" placeholder="Enter Confirm Password">
-            </div>
-### kita menambahkan lib dari ajax jquery
+            </div>### we add lib from ajax jquery
 
-> bisa di download dari library atau bisa juga di melalui link script
+> can be downloaded from the library or it can also be via the script link
+
 ```
 
 "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
 
 ```
-"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"
+"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js">
 
 ```
 
-"https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"
+#### we create a jquery file for the validation form
 
-#### kita membuat file jquery untuk form validasi nya
-
-> kita membuat rules validasi dalam field yang akan kita buat yang akan memunculkan outpur eror jika form tidak sesuai dengan rules yang kita buat
+> we create a validation rule in the field we are going to create which will throw an error if the form doesn't match the rules we created
 
 ```
 $("#userForm").validate({
@@ -124,9 +122,9 @@ $("#userForm").validate({
 
 ```
 
-### kedua kita membuat captcha validasi dengan jquery
+### second we create a validation captcha with jquery
 
-> kita akan membuat variable captcha untuk validation user pada form yang akan kita buat
+> we will create a captcha variable for user validation on the form we are going to create
 
 ```
 
@@ -146,8 +144,7 @@ var f = alpha[Math.floor(Math.random() * alpha.length)];
 
 ```
 
-> lalu kita membuat validasi pada captcha yang kita buat di variable create captcha sebelumnya
-
+> then we validate the captcha that we created in the previous create captcha variable
 ```
 
 function ValidateCaptcha() {
@@ -192,8 +189,8 @@ return string.split(' ').join('');
 }
 
 ```
-#### panduan untuk menginstall pluggin ini
+#### guide to install this plugin
 
-pertama ketikan npm init pada project anda
-lalu ketikan npm npm i tugas_jquery_amin_farhan
+type npm init first in your project
+then type npm npm i tugas_amin_update
 ```
