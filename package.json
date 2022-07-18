@@ -1,11 +1,15 @@
 {
-  "name": "farhantugas",
-  "version": "1.0.0",
+  "name": "farhanamin",
+  "version": "1.0.4",
   "description": "**jquery form validation Dan captcha input**",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "farhanamin",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farhanamin23/tugas_A3_Amin_Farhan_Amin_Update.git"
+  }
 }
