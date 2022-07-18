@@ -36,15 +36,16 @@ pada clsss card itu akan saya gunakan untuk membaut file di css nya
 ### kita menambahkan lib dari ajax jquery
 
 > bisa di download dari library atau bisa juga di melalui link script
-
 ```
 
 "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
 
 ```
-'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'>
+"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"
 
 ```
+
+"https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"
 
 #### kita membuat file jquery untuk form validasi nya
 
